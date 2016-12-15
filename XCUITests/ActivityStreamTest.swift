@@ -7,6 +7,7 @@ import XCTest
 class ActivityStreamTest: BaseTestCase {
 
     override func setUp() {
+        
         super.setUp()
         dismissFirstRunUI()
     }

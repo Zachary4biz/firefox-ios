@@ -107,6 +107,46 @@
                ReferencedContainer = "container:Client.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3BFE4B061D342FB800DDF53F"
+               BuildableName = "XCUITests.xctest"
+               BlueprintName = "XCUITests"
+               ReferencedContainer = "container:Client.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D39FA15E1A83E0EC00EE869C"
+               BuildableName = "UITests.xctest"
+               BlueprintName = "UITests"
+               ReferencedContainer = "container:Client.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "AuthenticationManagerTests/testEnteringLoginsUsingPasscodeWithImmediateInterval()">
+               </Test>
+               <Test
+                  Identifier = "FindInPageTests/testFindFromSelection()">
+               </Test>
+               <Test
+                  Identifier = "PrivateBrowsingTests/testClosePrivateTabsClosesPrivateTabs()">
+               </Test>
+               <Test
+                  Identifier = "ReaderViewUITests">
+               </Test>
+               <Test
+                  Identifier = "TopSitesTests">
+               </Test>
+               <Test
+                  Identifier = "TopTabsTests">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
